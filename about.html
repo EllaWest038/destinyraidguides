@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Double wrapped so that we can centre our actual footer even when screen gets real freaking big -->
+    <header>
+        <div class="real-header">
+            <img class="logo" src="images/darkestDaySkull.png" alt="logo">
+
+            <nav class="right-header">
+                <h1>Destiny Raid Guides</h1>
+
+                <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+                    <i class="fa fa-bars"></i>
+                </a>
+
+                <!-- Top navigation menu -->
+                <ul id="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" style="background-color: var(--red)">About</a></li>
+                    <li>
+                        <a href="activeRaids.html">Active Raids</a>
+                        <ul class="submenu">
+                            <li><a href="lastWish.html">Last Wish</a></li>
+                            <li><a href="gardenOfSalvation.html">Garden of Salvation</a></li>
+                            <li><a href="deepStoneCrypt.html">Deep Stone Crypt</a></li>
+                            <li><a href="vaultOfGlass.html">Vault of Glass</a></li>
+                            <li><a href="vowOfTheDisciple.html">Vow of the Disciple</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="vaultedRaids.html">Vaulted Raids</a>
+                        <ul class="submenu">
+                            <li><a href="destiny1.html">Destiny 1</a></li>
+                            <li><a href="destiny2.html">Destiny 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="banner" style="background-image: url('images/aboutBanner.png')">
+        <hr>
+        <h2>About</h2>
+    </div>
+
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li>About</li>
+    </ul>
+
+
+    <section>
+        <article>
+            <h3>What is Destiny Raid Guides?</h3>
+            <hr>
+
+            <p>
+                Destiny Raid Guides is a place to collect information on all Destiny raids, past and present.
+            </p>
+            <p>
+                Our goal is to provide new players with guides for all active raids that will help them learn these great activities. The guides themselves aren't meant to replace a traditional sherpa or video guide, but can be used as a quick reference to specific information.
+            </p>
+            <p>
+                Our secondary objective is to keep records of the raids that aren't in Destiny 2 and as such are considered to be in the Destiny Content Vault (DCV). As the years go by and Destiny 2 continues to expand it is important to remember what has come before and the good memories that it gave us. These records also serve as reminders for raids that come out of the DCV of what the mechanics of those raids are.
+            </p>
+        </article>
+    </section>
+
+
+    <!-- Double wrapped so that we can centre our actual footer even when screen gets real freaking big -->
+    <footer>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="activeRaids.html">Active Raids</a></li>
+                    <li class="subpage"><a href="lastWish.html">Last Wish</a></li>
+                    <li class="subpage"><a href="gardenOfSalvation.html">Garden of Salvation</a></li>
+                    <li class="subpage"><a href="deepStoneCrypt.html">Deep Stone Crypt</a></li>
+                    <li class="subpage"><a href="vaultOfGlass.html">Vault of Glass</a></li>
+                    <li class="subpage"><a href="vowOfTheDisciple.html">Vow of the Disciple</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="vaultedRaids.html">Vaulted Raids</a></li>
+                    <li class="subpage"><a href="destiny1.html">Destiny 1</a></li>
+                    <li class="subpage"><a href="destiny2.html">Destiny 2</a></li>
+                </ul>
+            </nav>
+    
+            <div id="credits">
+                <p><i><a href="https://www.bungie.net/" target="_blank">Destiny & all related media © Bungie</a></i></p>
+                <p><i><a href="sources.html">Sources</a></i></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Double wrapped so that we can centre our actual footer even when screen gets real freaking big -->
+    <header>
+        <div class="real-header">
+            <img class="logo" src="images/darkestDaySkull.png" alt="logo">
+
+            <nav class="right-header">
+                <h1>Destiny Raid Guides</h1>
+
+                <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+                    <i class="fa fa-bars"></i>
+                </a>
+
+                <!-- Top navigation menu -->
+                <ul id="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li>
+                        <a href="activeRaids.html">Active Raids</a>
+                        <ul class="submenu">
+                            <li><a href="lastWish.html">Last Wish</a></li>
+                            <li><a href="gardenOfSalvation.html">Garden of Salvation</a></li>
+                            <li><a href="deepStoneCrypt.html">Deep Stone Crypt</a></li>
+                            <li><a href="vaultOfGlass.html">Vault of Glass</a></li>
+                            <li><a href="vowOfTheDisciple.html">Vow of the Disciple</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="vaultedRaids.html">Vaulted Raids</a>
+                        <ul class="submenu">
+                            <li><a href="destiny1.html">Destiny 1</a></li>
+                            <li><a href="destiny2.html">Destiny 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html" style="background-color: var(--red)">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="banner" style="background-image: url('images/contactBanner.png')">
+        <hr>
+        <h2>Contact Us</h2>
+    </div>
+
+
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li>Contact Us</li>
+    </ul>
+
+
+    <section>
+        <article>
+            <p>If you have any queries regarding Destiny Raid Guides please let us know by filling in the form below!</p>
+            <br>
+
+            <form>
+                <div>
+                    <div>
+                        <label for="category">Category</label>
+                        <label for="page">Page</label>
+                        <label for="details">Details</label>
+                    </div>
+    
+                    <div>
+                        <select id="category" name="category">
+                            <option value="none" selected disabled hidden>Please select a category</option>
+                            <option value="suggestion">Suggestion</option>
+                            <option value="correction">Correction</option>
+                            <option value="question">Question</option>
+                            <option value="other">Other</option>
+                        </select>
+    
+                        <select id="page" name="page">
+                            <option value="home">Home</option>
+                            <option value="about">About</option>
+                            <option value="active">Active Raids</option>
+                            <option value="lw">Last Wish</option>
+                            <option value="gos">Garden of Salvation</option>
+                            <option value="dsc">Deep Stone Crypt</option>
+                            <option value="vog">Vault of Glass</option>
+                            <option value="vow">Vow of the Disciple</option>
+                            <option value="vaulted">Vaulted Raids</option>
+                            <option value="d1">Destiny 1</option>
+                            <option value="d2">Destiny 2</option>
+                            <option value="contact">Contact Us</option>
+                            <option value="none" selected>None</option>
+                        </select>
+    
+                        <textarea id="details" required></textarea>
+                    </div>
+                </div>
+
+                <input type="submit" value="Submit">
+            </form>
+        </article>
+    </section>
+
+
+    <!-- Double wrapped so that we can centre our actual footer even when screen gets real freaking big -->
+    <footer>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="activeRaids.html">Active Raids</a></li>
+                    <li class="subpage"><a href="lastWish.html">Last Wish</a></li>
+                    <li class="subpage"><a href="gardenOfSalvation.html">Garden of Salvation</a></li>
+                    <li class="subpage"><a href="deepStoneCrypt.html">Deep Stone Crypt</a></li>
+                    <li class="subpage"><a href="vaultOfGlass.html">Vault of Glass</a></li>
+                    <li class="subpage"><a href="vowOfTheDisciple.html">Vow of the Disciple</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="vaultedRaids.html">Vaulted Raids</a></li>
+                    <li class="subpage"><a href="destiny1.html">Destiny 1</a></li>
+                    <li class="subpage"><a href="destiny2.html">Destiny 2</a></li>
+                </ul>
+            </nav>
+    
+            <div id="credits">
+                <p><i><a href="https://www.bungie.net/" target="_blank">Destiny & all related media © Bungie</a></i></p>
+                <p><i><a href="sources.html">Sources</a></i></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
